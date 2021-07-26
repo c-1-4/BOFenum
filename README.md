@@ -31,7 +31,4 @@ sudo pkill -f wine #to make sure there are no wine/winedbg instances running
 sudo python3 BOFenum.py targetBin tport [-h] [-p PREFIX] [-w] [-l LPORT] [-H LHOST] [-r RHOST] [-f FUZZSTART] [-s FUZZSTRIDE] 
 
 # Disclaimer
-Used with success on the OSCP exam, but I make no guarantees as to whether or not it is allowed. No guarantees of it working on the exam either - make sure you  understand the course material and are able to do buffer overflows manually.
-
-Update: multiple people raised concerns that this tool may be unsafe for the exam as it could be used without knowledge of how to develop a BOF exploit. If you still want to use this on the exam, you should ask offsec first. The exam isn't everything though, I have found use for this on proving grounds, for example.
-
+Offsec staff have confirmed that this tool is disallowed on the exam (I got to use it because I was the author)
