@@ -1,6 +1,8 @@
 # BOFenum
 Complete enumeration tool for win32 binaries vulnerable to stack based buffer overflows. Written in python.
 
+[Demo video](https://www.youtube.com/watch?v=nGJCwNO5Y-I)
+
 # Features
 This tool will perform dymanic analysis of a win32 binary. It can, without interaction, go from fuzzing to badchar detection to shellcode generation. 
 - Uses wine. No windows host needed - only the binary and its custom .DLL dependencies (windows DLLs are linked automatically though)
