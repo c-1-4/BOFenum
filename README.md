@@ -18,8 +18,15 @@ You need the following tools to use this: wine (for wine and winedbg), pev (to r
 Tested with wine 6.0 and pev 0.80
 
 sudo apt-get install pev
+
 sudo apt install wine64
+
 sudo apt-get install metaploit-framework
+
+# Use
+sudo pkill -f wine #to make sure there are no wine/winedbg instances running
+
+sudo python3 BOFenum.py targetBin tport [-h] [-p PREFIX] [-w] [-l LPORT] [-H LHOST] [-r RHOST] [-f FUZZSTART] [-s FUZZSTRIDE] 
 
 # Disclaimer
 Used with success on the OSCP exam, but I make no guarantees as to whether or not it is allowed. No guarantees of it working on the exam either - make sure you  understand the course material and are able to do buffer overflows manually.
